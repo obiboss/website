@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=optional"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/normalize.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>movies</title>
+  </head>
+  <body>
+    <div class="grid">
+      <section class="block container block-dormain">
+        <header class="block__header" data-aos="slide-right">
+          <h2>Starting at &#8358;5k per year!</h2>
+          <p>
+            You can stream, download and watch your favourite movies and music
+            videos
+          </p>
+        </header>
+        <div class="input-group" data-aos="slide-left">
+          <input
+            type="text"
+            class="input"
+            placeholder="Enter Dormain Name ..."
+          />
+          <button class="btn btn--accent">
+            <svg class="icon icon--white">
+              <use href="./src/images/sprite.svg#search"></use></svg
+            >Search
+          </button>
+        </div>
+        <ul class="list block-dormain__prices" data-aos="slide-up">
+          <li>stream &#8358;1k</li>
+          <span class="badge badge--secondary">
+            <li>music &#8358;1k</li>
+          </span>
+          <li>movies &#8358;25</li>
+          <li>clips &#8358;13</li>
+          <li>mp3 &#8358;17</li>
+          <li>mp4 &#8358;12</li>
+        </ul>
+      </section>
+    </div>
+    <div class="grid"></div>
+    <div class="grid"></div>
+  </body>
+</html>
